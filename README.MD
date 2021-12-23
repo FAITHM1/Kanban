@@ -16,13 +16,13 @@ title = models.CharField(max_lenght=100)
 
 type = models.CharField(max_lenght=50)
 
-subProjects = models.ForeignKey(subProject)
 
 ### sub projects
 
 name = models.charField(max_lenght=200)
 
 description = models.CharField(max_lenght=1000)
+mainProjectNum = models.CharField(max_lenght=10)
 
 # Route Table
 
@@ -68,7 +68,7 @@ CSS
 React or Svelte
 
 # problems?
-
+-getting my li to be droppable
 # wireframe
 
 ![alt text](Screen.png "Title")
